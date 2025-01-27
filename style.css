@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@614&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --blue: #2A324B;
+    --grey: #58699D; 
+    --white: #fff;
+    --light: #E1E5EE; 
+}
+
+body{
+    font-family: "Rubik", serif;
+    background-color: var(--light);
+
+}
+
+h1 {
+    color: var(--blue);
+}
+ 
+main {
+   
+    margin: 5rem 3rem;
+    padding: 0;
+    width: 100%;
+    max-width: 1200px;
+
+
+}
+nav{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+    #top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+
+        li {
+            margin: 0;
+            padding: 0;
+
+        a {
+    
+    font-family: "Rubik", serif;
+    font-weight: 700;
+    background: var(--blue);
+    color: var(--white);
+    padding: 1rem 3rem;
+}
+
+a:hover { 
+    background-color: var(--white);
+    color: var(--blue--);
+}
+        }
+
+    }
+}
+
+
+#info {
+     background-color: var(--white);
+     margin: 1rem 0;
+     padding:  3rem;
+
+}
+
+
